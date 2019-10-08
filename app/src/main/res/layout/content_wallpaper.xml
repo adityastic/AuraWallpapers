@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".WallpaperActivity"
+    tools:showIn="@layout/activity_wallpaper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="@dimen/cardMarginVertical"
+            android:padding="10dp"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="2dp"
+            app:cardPreventCornerOverlap="false"
+            app:contentPadding="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/activityName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Name"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/header_text_size" />
+
+                <TextView
+                    android:id="@+id/activityauthor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:lineSpacingMultiplier="1.1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Author"
+                    android:textColor="#191919"
+                    android:textSize="@dimen/content_text_size" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/cardMarginVertical"
+                    android:layout_marginLeft="@dimen/cardMarginHorizontal"
+                    android:layout_marginRight="@dimen/cardMarginHorizontal"
+                    android:layout_marginTop="@dimen/cardMarginVertical">
+
+                    <TextView
+                        android:id="@+id/activitydescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="10dp"
+                        android:text="@string/no_authordescription"
+                        android:textAlignment="center"
+                        android:textColor="#191919" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/activityfollow"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="@dimen/cardMarginVertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="@dimen/cardMarginVertical"
+            android:padding="10dp"
+            android:visibility="gone"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="2dp"
+            app:cardPreventCornerOverlap="false"
+            app:contentPadding="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <wallpapers.aura.Views.SquareImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/googleplus" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="Follow on Google Plus"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Aura Wallpapers</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Store Link -->
+    <string name="store_link">https://play.google.com/store/apps/details?id=</string>
+
+    <string name="authorjsons">https://raw.githubusercontent.com/adityaakadynamo/GG/master/Authors.js</string>
+    <string name="wallpapercategoriesjsons">https://raw.githubusercontent.com/adityaakadynamo/GG/master/Base.js</string>
+    <string name="drawercategoriesjson">https://raw.githubusercontent.com/adityaakadynamo/GG/master/Drawer.js</string>
+
+    <!-- Dev Information -->
+    <string name="facebooklink">https://www.facebook.com/Cool.Mr.Aditya</string>
+    <string name="googlepluslink">https://plus.google.com/+AdityaOfficialGupta</string>
+    <string name="email_id">adityaofficialgupta@gmail.com</string>
+
+    <!-- Wallpaper Strings -->
+    <string name="wallpaper_loaded" tools:ignore="TypographyEllipsis">Wallpaper Loaded...!!</string>
+    <string name="already_downloaded" tools:ignore="TypographyEllipsis">Wallpaper already Downloaded...!!</string>
+
+    <!-- Card Description -->
+    <string name="no_authordescription">This Guy offers some really cool wallpapers and has a great acknowledgment regarding wallpapers\n\nDont forget to follow him below</string>
+
+    <!-- Arrays to Assign metadata wallpapers -->
+
+</resources>
