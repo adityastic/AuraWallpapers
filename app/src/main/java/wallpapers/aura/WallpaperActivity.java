@@ -17,13 +17,13 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.preference.PreferenceManager;
-import android.support.design.widget.BottomSheetBehavior;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.v4.widget.NestedScrollView;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.widget.NestedScrollView;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+import androidx.appcompat.widget.Toolbar;
 import android.transition.Fade;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -46,7 +46,6 @@ import com.squareup.picasso.MemoryPolicy;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
@@ -62,7 +61,6 @@ import wallpapers.aura.Detectors.ShakeDetector;
 import wallpapers.aura.Listeners.OnSwipeTouchListener;
 import wallpapers.aura.Services.ShakeService;
 import wallpapers.aura.Singleton.SingletonInfo;
-import wallpapers.aura.Util.Basic;
 
 /**
  * Created by Aditya on 08/12/16.
