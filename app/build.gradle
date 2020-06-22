@@ -42,7 +42,7 @@ dependencies {
         transitive = true
     }
     // Material Drawer
-    implementation('com.mikepenz:materialdrawer:5.2.9@aar') {
+    implementation('com.mikepenz:materialdrawer:8.1.3@aar') {
         transitive = true
     }
     // Loading Library
