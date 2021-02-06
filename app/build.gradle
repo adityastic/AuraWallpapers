@@ -38,7 +38,7 @@ dependencies {
     // Animated KensBurn ImageView
     implementation 'com.flaviofaria:kenburnsview:1.0.7'
     // About Libraries
-    implementation('com.mikepenz:aboutlibraries:8.7.1@aar') {
+    implementation('com.mikepenz:aboutlibraries:8.8.0@aar') {
         transitive = true
     }
     // Material Drawer
