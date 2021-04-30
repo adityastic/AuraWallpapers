@@ -1,0 +1,11 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: com.mikepenz:materialdrawer
+    versions:
+    - 8.3.1
